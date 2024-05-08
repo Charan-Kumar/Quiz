@@ -8,7 +8,7 @@ export default function Home() {
   const [data, setData] = useState(QUESTIONS_DATA)
   const [questions, setQuestions] = useState([])
   const [question, setQuestion] = useState(null)
-  const [rounds, setRounds] = useState(data.map((question) => question.roundTitle))
+  const [rounds, setRounds] = useState(QUESTIONS_DATA.map((question) => question.roundTitle))
   const [round, setRound] = useState('')
   const [isOpen, setIsOpen] = useState(false)
 
@@ -31,7 +31,7 @@ export default function Home() {
       const roundData = data.find((obj) => obj.roundTitle === round)
       setQuestions(roundData ? roundData.questions : [])
     }
-  }, [question, data])
+  }, [question, data, round])
 
 
   return (
@@ -41,13 +41,13 @@ export default function Home() {
         <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
         <select value={round} onChange={(e) => handleRound(e)} id="rounds" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
           <option selected>Choose Round</option>
-          {rounds.map((round) => <option value={round}>{round}</option>)}
+          {rounds.map((round) => <option key={round} value={round}>{round}</option>)}
         </select>
       </form>
 
       <div className=" w-[40%] flex gap-4 flex-wrap">
         {questions.map((question) => (
-          <div className={`w-24 h-24 cursor-pointer ${question.is_answered ? 'bg-orange-800' : 'bg-orange-400'}  text-white text-xl font-bold flex items-center justify-center`} onClick={() => questionClick(question)}>
+          <div key={question.id} className={`w-24 h-24 cursor-pointer ${question.is_answered ? 'bg-orange-800' : 'bg-orange-400'}  text-white text-xl font-bold flex items-center justify-center`} onClick={() => questionClick(question)}>
             {question.id}
           </div>
         ))}
