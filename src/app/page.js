@@ -45,9 +45,9 @@ export default function Home() {
         </select>
       </form>
 
-      <div className=" w-[40%] flex gap-4 flex-wrap">
+      <div className="w-full md:w-[40%] flex gap-4 flex-wrap">
         {questions.map((question) => (
-          <div key={question.id} className={`w-24 h-24 cursor-pointer ${question.is_answered ? 'bg-orange-800' : 'bg-orange-400'}  text-white text-xl font-bold flex items-center justify-center`} onClick={() => questionClick(question)}>
+          <div key={question.id} className={`w-20 h-20 md:w-24 md:h-24 cursor-pointer ${question.is_answered ? 'bg-orange-800' : 'bg-orange-400'}  text-white text-xl font-bold flex items-center justify-center`} onClick={() => questionClick(question)}>
             {question.id}
           </div>
         ))}

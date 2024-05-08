@@ -157,7 +157,6 @@ export const QUESTIONS_DATA = [
     { id: 12, question: "The element used in light bulbs to produce light is?", type: "BLANK", answer: "Tungsten", is_answered: false }]
     
   },
-  ,
   {
     roundTitle: "Round Eleven", questions: [{ id: 1, question: "What is the Meaning of bharat? ", type: "BLANK", answer: "Intrest in knowledge", is_answered: false },
     { id: 2, question: "Who did first surgery on earth ? ", type: "BLANK", answer: "Sage Sushruta", is_answered: false },
