@@ -9,7 +9,10 @@ export const QUESTIONS_DATA = [
     { id: 7, question: "What are the steps of Ashtanga Yoga?", type: "BLANK", answer: "Yama, niyama, Asana, Pranayama, Prathyahara, Dharana, Dhayana, Samadhi", is_answered: false },
     { id: 8, question: "Which sense differs human beings from other living beings?", type: "BLANK", answer: "Intellect", is_answered: false },
     { id: 9, question: "Say any 5 different types of Yoga?", type: "BLANK", answer: "Jnana, Karma, Bhakthi, Mantra, laya, Kundalini, Raja, Hatha", is_answered: false },
-    { id: 10, question: "What is the Mantra for Asanas?", type: "BLANK", answer: "Om Mani Bhrajat…", is_answered: false }]
+    { id: 10, question: "Name the asana in which the waist and arms look like a cobra?", type: "BLANK", answer: "Bhujangasana", is_answered: false },
+	{ id: 11, question: "What is the Mantra for Asanas?", type: "BLANK", answer: "Om Mani Bhrajat…", is_answered: false },
+	{ id: 12, question: "Which Pranayama produces humming Bee sound?", type: "BLANK", answer: "Brahmari", is_answered: false }
+	]
   },
   {
     roundTitle: "Round Two-EPICS", questions: [{ id: 1, question: "Name the Dasavatharas?", type: "BLANK", answer: "Matsya, Kurma, Varaha, Narasimha, Vamana, Parasu Rama,Sri Rama, Sri Krishna, Boudha, Kalki", is_answered: false },
@@ -22,7 +25,8 @@ export const QUESTIONS_DATA = [
     { id: 8, question: "Who is the Guru of Devathas?", type: "BLANK", answer: "Bruhaspathi", is_answered: false },
     { id: 9, question: "Father of Parasurama?", type: "BLANK", answer: "Jamadagni", is_answered: false },
     { id: 10, question: "What were the Rakshasa Janmas of Jaya Vijayas?", type: "BLANK", answer: "Hiranyaksha-Hiranayakasipa,  Ravana-Kumbhakarna, Sisupala – Dantavaktra", is_answered: false },
-    { id: 11, question: "Who are the parents of Markandeya", type: "BLANK", answer: "Mrikanda and Manasvini", is_answered: false }]
+    { id: 11, question: "Who are the parents of Markandeya", type: "BLANK", answer: "Mrikanda and Marudmati", is_answered: false },
+	{ id: 12, question: "రామున్ని కిర్తిస్తూ మారీచుడు చెప్పిన మాట ఏమిటి ?", type: "BLANK", answer: "రామో విగ్రహవాన్ ధర్మః ", is_answered: false }]
     
   },
   {
@@ -80,7 +84,7 @@ export const QUESTIONS_DATA = [
     { id: 3, question: "“The Insider” written by", type: "BLANK", answer: "PV Narasimharao", is_answered: false },
     { id: 4, question: "Who was known as Indian Shakesphere?", type: "BLANK", answer: "Kalidasu", is_answered: false },
     { id: 5, question: "Say the title of Tikkana of Kavitrayam", type: "BLANK", answer: "Kavi Brahma, Ubhaya kavimitrudu", is_answered: false },
-    { id: 6, question: "Who wrote “Bhagavata” in Telugu", type: "BLANK", answer: "Subhashitalu” in Sanskrit written by", is_answered: false },
+    { id: 6, question: "Who wrote “Bhagavata” in Telugu", type: "BLANK", answer: "Pothana", is_answered: false },
     { id: 7, question: "“Sumati sataka” written by", type: "BLANK", answer: "Bhaddena", is_answered: false },
     { id: 8, question: "“ Maa Telugu Talliki Malli Poo Dhanda” written by", type: "BLANK", answer: "Shankarambadi Sundaracharyulu", is_answered: false },
     { id: 9, question: "“ Gitanjali” written by", type: "BLANK", answer: "Ravindranadh Tagore", is_answered: false },
@@ -125,25 +129,7 @@ export const QUESTIONS_DATA = [
     
   },
   {
-    roundTitle: "Round Nine", questions: [{ id: 1, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 2, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 3, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 4, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 5, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 6, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 7, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 8, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 9, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 10, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 11, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 12, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 13, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 14, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false },
-    { id: 15, question: "What is your Name?", type: "BLANK", answer: "Hello", is_answered: false }]
-    
-  },
-  {
-    roundTitle: "Round Ten-Science and Technology", questions: [{ id: 1, question: "What is the name of the first Indian missile?", type: "BLANK", answer: "Prithvi", is_answered: false },
+    roundTitle: "Round Nine-Science and Technology", questions: [{ id: 1, question: "What is the name of the first Indian missile?", type: "BLANK", answer: "Prithvi", is_answered: false },
     { id: 2, question: "Which country has decided to leave the International Space Station by 2024?", type: "BLANK", answer: "Russia", is_answered: false },
     { id: 3, question: "What is sodium carbonate in chemical formula?", type: "BLANK", answer: "Na2CO3", is_answered: false },
     { id: 4, question: "Atoms consists of?", type: "BLANK", answer: "Protons, electrons,neutrons", is_answered: false },
@@ -158,14 +144,18 @@ export const QUESTIONS_DATA = [
     
   },
   {
-    roundTitle: "Round Eleven", questions: [{ id: 1, question: "What is the Meaning of bharat? ", type: "BLANK", answer: "Intrest in knowledge", is_answered: false },
+    roundTitle: "Round Ten", questions: [{ id: 1, question: "What is the Meaning of bharat? ", type: "BLANK", answer: "Intrest in knowledge", is_answered: false },
     { id: 2, question: "Who did first surgery on earth ? ", type: "BLANK", answer: "Sage Sushruta", is_answered: false },
     { id: 3, question: "Knowledge of herbs, medicines and sugery is found in which sastra?", type: "BLANK", answer: "Ayurveda", is_answered: false },
     { id: 4, question: "Who authored vimana sastra book ? ", type: "BLANK", answer: "Sage Bharadwaja", is_answered: false },
     { id: 5, question: "Hanging pillars are placed in which temple ? ", type: "BLANK", answer: "Lepakshi", is_answered: false },
     { id: 6, question: "First encyclopedia was authored by ", type: "BLANK", answer: "Sage Valmiki", is_answered: false },
     { id: 7, question: "Sapta swara mandapa located in ", type: "BLANK", answer: "Madhurai temple Meenakshi amman", is_answered: false },
-    { id: 8, question: "World’s first dam was named as ", type: "BLANK", answer: "Kallanai Dam", is_answered: false }]
+    { id: 8, question: "World’s first dam was named as ", type: "BLANK", answer: "Kallanai Dam", is_answered: false },
+	{ id: 9, question: "The sage Patanjali is incarnation of ", type: "BLANK", answer: "aadiseshu", is_answered: false },
+	{ id: 10, question: "Name any 4 of Navavida Bhakti marga?", type: "BLANK", answer: " 'శ్రవణం', 'కీర్తనం', 'స్మరణం', 'పాదసేవనం', 'అర్చనం', ' వందనం', 'దాస్యం', 'సఖ్యం', 'ఆత్మనివేదనం'", is_answered: false },
+	{ id: 11, question: "Which Pranayama produces humming Bee sound?", type: "BLANK", answer: "Brahmari", is_answered: false },
+	{ id: 11, question: "'_AD_ _ANA ' This asana teaches one to attain stability and firmness and forms the base for all the standing asana.", type: "BLANK", answer: "TADASANA", is_answered: false }]
     
   }
 ]
